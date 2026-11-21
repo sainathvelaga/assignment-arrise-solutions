@@ -1,5 +1,12 @@
 # Task1/.gitignore
-keys/*.pem
+# Private keys and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+*.pub
 
 # Local .terraform directories
 **/.terraform/*
